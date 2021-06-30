@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style>
+		img{
+			transition: all 1s;
+/*			1초에 걸쳐서 transition이 일어나도록 함. */
+			
+			-webkit-filter: grayscale(100%) blur(10px);
+			-o-filter: grayscale(100%) blur(10px);
+			filter: grayscale(100%) blur(10px);
+			
+			position:absolute;
+			width: 400px;
+			height:auto;
+			
+			margin: 100px;
+		}
+		
+		img:hover{
+			-webkit-filter: grayscale(0%) blur(0px);
+			-o-filter: grayscale(0%) blur(0px);
+			filter: grayscale(0%) blur(0px);
+			
+			-webkit-transform: scale(1.3);
+  			transform: scale(1.3);
+		}
+		
+		h1{
+			-webkit-filter: blur(3px);
+			-o-filter: blur(3px);
+			filter: blur(3px);
+		}
+	</style>
+</head>
+<body>
+	<h1>고딩박한서</h1>
+	<img src="HS.PHS.jpg" alt="고딩박한서임 ㅋㅋ">
+</body>
+</html>
