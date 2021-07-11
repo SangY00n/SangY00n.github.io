@@ -198,5 +198,8 @@ restartButton.addEventListener("click",()=>{
 
     gameText.style.display = "none";
 
+    score = 0;
+    scoreDisplay.innerText = score;
+
     init();
 })
